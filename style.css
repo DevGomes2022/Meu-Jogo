@@ -1,0 +1,246 @@
+@charset "UTF-8";
+
+/*====fontes-externa====*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /*font-family: 'Poppins', sans-serif;*/
+
+/*====fim-fontes-externa====*/
+
+
+
+
+/*====cores-repetitivas====*/
+/*====fim-cores====*/
+
+
+
+
+/*====fundo-do-site====*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow: hidden;
+}
+
+/*====fim-do-fundo-do-site====*/
+
+
+
+
+/*====conteudo====*/
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0c0c0c;
+}
+
+.menu_principal {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+.logo h1{
+    font-size: 25px;
+    padding: 15px;
+    color: white;
+    cursor: context-menu;
+    text-shadow: 0px 0px 10px black;
+}
+
+.menus {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+}
+
+.menus li{
+    display: inline-block;
+    list-style: none;
+    transition: 0.4s;
+}
+
+.menus li:hover {
+    transform: translateY(-4px);
+}
+
+.menus a {
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-shadow: 0px 0px 10px black;
+}
+
+.menus a:hover {
+    color: black;
+    background-color: white;
+    text-shadow: 0px 0px 0px white;
+}
+
+.box_conteudo {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.box_entrar {
+    width: 400px;
+    height: 450px;
+    background-color: #302e2e;
+    border-radius: 5px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    box-shadow: inset 0px 0px 10px #0c0c0c;
+}
+
+.box_entrar-logo h1 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: context-menu;
+}
+
+.box_entrar p{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: context-menu;
+}
+
+#nome {
+    padding: 10px;
+    width: 85%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+#nome::placeholder {
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#senha {
+    padding: 10px;
+    width: 85%;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+#senha::placeholder {
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/*====*/
+
+.btn_esqueceu-senha {
+    margin-bottom: 30px;
+}
+
+.btn_esqueceu-senha > a{
+    color: #bbb7be;
+    font-size: 14px;
+    transition: 0.4s;
+}
+
+.btn_esqueceu-senha > a:hover {
+    color: white;
+}
+
+.btn_criar-conta > a {
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #1bc483;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.btn_criar-conta > a:hover {
+    background-color: #149463;
+}
+
+.btn_entrar {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn_entrar > a {
+    padding: 10px 70px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: #1bc4c4;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.btn_entrar > a:hover {
+    background-color: #149696;
+}
+
+.opcoes {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.linha {
+    width: 160px;
+    height: 1px;
+    background-color: white;
+    display: inline-block;
+}
+
+.opcoes > p {
+    display: inline-block;
+    padding: 5px;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+
+/*====fim-conteudo====*/
+
+
+
+
+/*====scroll-revel====*/
+/*====fim-scroll-revel====*/
+
+
+
+
+/*====barra-de-rolamento====*/
+/*====fim-barra-de-rolamento====*/
